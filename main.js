@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/node_modules|public|runtime/);
+        return !name.match(/node_modules|pano|media|textures|favicon|runtime/);
     };
 });
